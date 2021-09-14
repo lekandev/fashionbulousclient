@@ -10,9 +10,9 @@ const Hero = () => {
         <p className={styles.hero__tagline}>
           Where creativity meets talent and fashion.
         </p>
-        <a className={styles.hero__button} href="/shop">
+        <Link className={styles.hero__button} href="/shop">
           Shop
-        </a>
+        </Link>
       </div>
 
       {/* <img src="/assets/line.png" alt="" className="hero__line--1" />
