@@ -8,12 +8,15 @@ const Hero = () => {
       <div className={styles.hero__info}>
         <h1 className={styles.hero__title}>Fashionbulous</h1>
         <p className={styles.hero__tagline}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus.
+          Where creativity meets talent and fashion.
         </p>
         <a className={styles.hero__button} href="/shop">
           Shop
         </a>
       </div>
+
+      {/* <img src="/assets/line.png" alt="" className="hero__line--1" />
+      <img src="/assets/line.png" alt="" className="hero__line--2" /> */}
     </div>
   );
 };

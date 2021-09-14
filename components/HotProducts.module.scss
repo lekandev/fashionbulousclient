@@ -1,0 +1,10 @@
+.hotProducts {
+    text-align: center;
+
+    .hotProducts__wrapper {
+        display: grid;
+        place-items: center;
+        row-gap: 50px;
+        text-align: left;
+    }
+}
