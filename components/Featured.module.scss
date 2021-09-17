@@ -1,11 +1,12 @@
 .featured {
+     margin: 50px;
 
     .featured__title {
         text-align: center;
     }
 
     .featured__container {
-        margin: 50px;
+        margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         place-items: center;

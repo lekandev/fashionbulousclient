@@ -1,0 +1,15 @@
+.recentProducts {
+    margin: 50px;
+
+    .recentProducts__title {
+        text-align: center;
+    }
+
+    .recentProducts__container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        place-items: center;
+        row-gap: 50px;
+    }
+}

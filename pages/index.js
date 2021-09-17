@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import NavBar from '../components/NavBar';
 import Featured from '../components/Featured';
 import HotProducts from '../components/HotProducts';
+import RecentProducts from '../components/RecentProducts';
+import Subscribe from '../components/Subscribe';
 
 export default function Home() {
   return (
@@ -14,7 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <NavBar />
@@ -23,6 +28,8 @@ export default function Home() {
         <Hero />
         <Featured />
         <HotProducts />
+        <RecentProducts />
+        <Subscribe />
       </main>
 
       {/* <footer className={styles.footer}>
@@ -38,7 +45,7 @@ export default function Home() {
         </a>
       </footer> */}
     </div>
-  )
+  );
 }
 
 /**

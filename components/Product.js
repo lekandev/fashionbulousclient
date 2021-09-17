@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Product.module.scss";
+import Button from './Button/Button.js'
 
 const Product = ({
   productName,
@@ -25,7 +26,8 @@ const Product = ({
       <div className={isRect ? rect.product__info : styles.product__info}>
         <h3 className="product__name">{productName}</h3>
         {isRect ? <p className="product__desc">{product__desc}</p> : null}
-        <small className="product__price">{productPrice}</small>
+        <small className={styles.product__price}>{productPrice}</small>
+        <Button text="Order Now" path="/" />
       </div>
     </div>
   );
